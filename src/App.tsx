@@ -4,6 +4,8 @@ import Deposit from "./deposit/deposit";
 import Header from "./header/header";
 import Main from "./main/main";
 import Moim from "./moim/moim";
+import Remittance from "./remittance/remittance";
+import Weeks26 from "./weeks26/weeks26";
 import Withdrawal from "./withdrawal/withdrawal";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Withdrawal />
       <Deposit />
       <Moim />
+      <Weeks26 />
+      <Remittance />
     </div>
   );
 }
