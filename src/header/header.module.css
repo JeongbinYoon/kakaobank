@@ -1,0 +1,32 @@
+.header {
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 15px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav ul li:last-child {
+  border-radius: 30px;
+  background-color: #fede22;
+}

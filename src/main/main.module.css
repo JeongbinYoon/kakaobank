@@ -1,0 +1,48 @@
+.main {
+  height: 883px;
+}
+
+.bannerImg {
+  width: 100%;
+}
+
+.text1 {
+  font-size: 48px;
+}
+
+.text1 {
+  margin: 0;
+  margin-left: 200px;
+  padding-top: 200px;
+}
+
+.text2 {
+  margin-left: 200px;
+  padding-top: 10px;
+}
+
+.text3 {
+  display: block;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  margin-left: 200px;
+  width: 180px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btn2 {
+  margin-left: 10px;
+  width: 180px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
