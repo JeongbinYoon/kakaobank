@@ -1,0 +1,31 @@
+.moim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  width: 500px;
+}
+
+.imgBox img {
+  width: 100%;
+}
+
+.moim h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.moim p {
+  background-color: #fede22;
+}
+
+.moim button {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

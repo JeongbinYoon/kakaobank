@@ -1,0 +1,44 @@
+.deposit {
+  background-color: #f9f9f9;
+  padding: 30px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.deposit h2 {
+  font-size: 48px;
+}
+
+.imgBox {
+  width: 500px;
+}
+
+.deposit p {
+  background-color: #fede22;
+  margin-bottom: 30px;
+}
+
+.imgBox img {
+  width: 100%;
+}
+
+.btns {
+  margin-bottom: 60px;
+}
+
+.deposit button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.img2 {
+  width: 400px;
+}
