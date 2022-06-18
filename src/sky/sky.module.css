@@ -1,0 +1,35 @@
+.sky {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-color: #333b58;
+}
+
+.sky h2 {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+}
+
+.sky p {
+  color: grey;
+}
+
+.sky .btns {
+  display: flex;
+}
+
+.sky button {
+  width: 200px;
+  height: 50px;
+  margin: 0 5px;
+  background-color: #454d67;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.sky img {
+  width: 500px;
+}
