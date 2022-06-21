@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+## Haitai project-2022-04-22
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 정보
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+> 본 프로젝트는 카카오뱅크 메인 페이지 클론 프로젝트이다. 각 섹션과 애니메이션 적용이 필요한 단위별로 컴포넌트를 나누어 협업을 통해 제작했다.
+> Typescript를기반하여 React로 제작했다.
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 역할분담
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+> [팀장] 윤정빈 : Header, Main, Withdrawal
+>
+> [팀원] 이승기 : Desposit, Moim, Weeks26, Remittance
+>
+> [팀원] 유성현 : Sky, End, Footer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Header
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Header의 각 메뉴에 마우스 오버 되었을 때 서브 메뉴가 나타나도록 했다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Main
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
+>
+> tsx 구문 안에서 background 를 설정하고 사이즈 조절을 하였다.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Withdrawal, Desposit, Weeks26, Remittance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> CSS flex 속성으로 레이아웃을 구성하고 position 속성을 이용하여 배치했다.
 
-## Learn More
+## Remittance
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> 리스트로 여러개의 박스를 만들고 CSS의 flex 속성으로 배치했다. 본문의 많은 양의 글들은 line-clamp 속성으로 3줄 이상 넘어갈 시 숨기도록 했다.
+
+## Sky, End
+
+---
+
+> Sky 컴포넌트의 CSS flex 속성의 direction을 column으로 설정하여 전체 레이아웃을 세로로 구성하고 각 버튼은 리스트로 만들었다.
+
+## Footer
+
+---
+
+> CSS의 flex 속성으로 요소들 세로 배치하였고 각 열마다 요소를 추가하였다.
+
+
+## 느낀점
+
+---
+
+> 각 컴포넌트를 역할을 나누어 만든 후 하나의 프로젝트에 import 하였기 때문에 프로젝트를 구현하면서 서로의 충돌없이 할 수 있었다.
+> 수정이 필요한 경우에도 컴포넌트 별로 나누어져있어 유지 보수가 편리하다는 생각이 들었다.
+> Typescript를 사용하였기 때문에 제작 중에 타입에러가 많이 나서 힘들었지만 그것이 Typescript를 사용하는 이유이고 배포 시의 오류를 사전에 방지할 수 있다는 것을 알게되었다.
