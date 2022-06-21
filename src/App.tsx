@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.module.css";
 import Deposit from "./deposit/deposit";
 import End from "./end/end";
@@ -12,6 +12,8 @@ import Weeks26 from "./weeks26/weeks26";
 import Withdrawal from "./withdrawal/withdrawal";
 
 function App() {
+  // if (scrollY > 420) {
+  // }
   return (
     <div className="App">
       <Header />

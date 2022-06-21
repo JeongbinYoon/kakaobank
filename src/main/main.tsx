@@ -1,12 +1,17 @@
 import { url } from "inspector";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./main.module.css";
 
 const Main = () => {
   return (
     <div
       className={styles.main}
-      style={{ background: "url(./main-bg3.png)", backgroundSize: "contain" }}
+      style={{
+        background: "url(./main-bg3.png)",
+        backgroundSize: "cover",
+        backgroundPosition: "0 -330px",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <h2 className={styles.text1}>
         이미 모두의 은행
